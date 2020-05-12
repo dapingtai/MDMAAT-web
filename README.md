@@ -1,4 +1,4 @@
-![GitHub](https://img.shields.io/github/license/dapingtai/MDMAAT)
+![GitHub](https://img.shields.io/github/license/dapingtai/MDMAAT-web)
 # MDMAAT
 - Microarry Data Management AndAnalysis Tool
 
