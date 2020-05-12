@@ -1,0 +1,85 @@
+/* header logo */
+.main-header .logo {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+/* way 1.*/
+.sidebar-mini.sidebar-collapse .sidebar-menu>li:hover>.treeview-menu, .sidebar-mini.sidebar-collapse .sidebar-menu>li:hover>a>span:not(.pull-right){
+   width:350px;
+}
+
+#pass{
+  color:red;
+}
+#pass:hover{
+  color:#CCCCFF;
+}
+
+/*Group Comparsion box*/
+.box > .box-header {
+  color:white;
+  background:#B088FF;
+  background-color:#B088FF;
+}
+.box {
+  border:1px solid #B088FF;
+} 
+
+.btn.btn-box-tool {
+  color:white;
+}
+
+#EXAMPLE_download_result, #EXAMPLE_download_groupA, #EXAMPLE_download_groupB {
+  color:#B088FF;
+  background-color: #FFF; 
+  border-color: #B088FF;
+}
+/*EXAMPLE pair&barnocall word color*/
+#EXAMPLE_limmadatabar_nocall, #EXAMPLE_pair_check {
+  color:red;
+}
+
+#EXAMPLE_limmadatabar_nocall {
+  font-size:20px;
+}
+#EXAMPLE2_download_result, #EXAMPLE2_download_groupA, #EXAMPLE2_download_groupB {
+  color:#B088FF;
+  background-color: #FFF; 
+  border-color: #B088FF;
+}
+/*EXAMPLE2 pair&barnocall word color*/
+#EXAMPLE2_limmadatabar_nocall, #EXAMPLE2_pair_check {
+  color:red;
+}
+
+#EXAMPLE2_limmadatabar_nocall {
+  font-size:20px;
+}
+#EXAMPLE3_download_result, #EXAMPLE3_download_groupA, #EXAMPLE3_download_groupB {
+  color:#B088FF;
+  background-color: #FFF; 
+  border-color: #B088FF;
+}
+/*EXAMPLE3 pair&barnocall word color*/
+#EXAMPLE3_limmadatabar_nocall, #EXAMPLE3_pair_check {
+  color:red;
+}
+
+#EXAMPLE3_limmadatabar_nocall {
+  font-size:20px;
+}
+#EXAMPLE4_download_result, #EXAMPLE4_download_groupA, #EXAMPLE4_download_groupB {
+  color:#B088FF;
+  background-color: #FFF; 
+  border-color: #B088FF;
+}
+/*EXAMPLE4 pair&barnocall word color*/
+#EXAMPLE4_limmadatabar_nocall, #EXAMPLE4_pair_check {
+  color:red;
+}
+
+#EXAMPLE4_limmadatabar_nocall {
+  font-size:20px;
+}

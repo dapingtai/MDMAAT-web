@@ -1,0 +1,14 @@
+/*TEMPLATE download button*/
+#TEMPLATE_download_result, #TEMPLATE_download_groupA, #TEMPLATE_download_groupB {
+  color:#B088FF;
+  background-color: #FFF; 
+  border-color: #B088FF;
+}
+/*TEMPLATE pair&barnocall word color*/
+#TEMPLATE_limmadatabar_nocall, #TEMPLATE_pair_check {
+  color:red;
+}
+
+#TEMPLATE_limmadatabar_nocall {
+  font-size:20px;
+}

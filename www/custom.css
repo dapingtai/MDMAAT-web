@@ -1,0 +1,48 @@
+/* header logo */
+.main-header .logo {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+/* way 1.*/
+.sidebar-mini.sidebar-collapse .sidebar-menu>li:hover>.treeview-menu, .sidebar-mini.sidebar-collapse .sidebar-menu>li:hover>a>span:not(.pull-right){
+   width:350px;
+}
+
+#pass{
+  color:red;
+}
+#pass:hover{
+  color:#CCCCFF;
+}
+
+/*Group Comparsion box*/
+.box > .box-header {
+  color:white;
+  background:#B088FF;
+  background-color:#B088FF;
+}
+.box {
+  border:1px solid #B088FF;
+} 
+
+.btn.btn-box-tool {
+  color:white;
+}
+
+/*Custom css*/
+/*EXAMPLE download button*/
+#EXAMPLE_download_result, #EXAMPLE_download_groupA, #EXAMPLE_download_groupB {
+  color:#B088FF;
+  background-color: #FFF; 
+  border-color: #B088FF;
+}
+/*EXAMPLE pair&barnocall word color*/
+#EXAMPLE_limmadatabar_nocall, #EXAMPLE_pair_check {
+  color:blue;
+}
+
+#EXAMPLE_limmadatabar_nocall {
+  font-size:20px;
+}
