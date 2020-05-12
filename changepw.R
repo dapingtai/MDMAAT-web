@@ -6,7 +6,7 @@ observe({
 	Currentpw1 <- digest(isolate(input$Currentpw), "md5", serialize = FALSE)
 	Newpw1 <- digest(isolate(input$Newpw), "md5", serialize = FALSE)
         Confirmpw1 <- digest(isolate(input$Confirmpw), "md5", serialize = FALSE)
-	conn = dbConnect(RMySQL::MySQL(), user = "pppstat", password = "pppstat", host = "localhost", dbname = "mib_shiny")
+	conn = dbConnect(RMySQL::MySQL(), user = login_info["user",], password = login_info["password",], host = login_info["host",], dbname = login_info["dbname",])
 	GetuserPw <- paste("Select Password from User WHERE `Username` = '", input$userName ,"' ", sep = "")
 	CheckPw <- dbGetQuery(conn, statement=GetuserPw)
 	if (Currentpw1 == CheckPw){
