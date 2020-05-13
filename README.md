@@ -42,7 +42,7 @@ systemctl start shiny-server
 systemctl enable shiny-server
 ```
 ## Step6: Setting container DB
-Our default is using localhost DB(user="root", password="root"), if you want to change DB location, you can change host location in [login_info.text](https://github.com/dapingtai/MDMAAT-web/blob/master/login_info.text)
+Our default is using localhost MariaDB in containter, if you want to change DB location, you can change host location in [login_info.text](https://github.com/dapingtai/MDMAAT-web/blob/master/login_info.text)
 
 **Ps. Only Support MYSQL/MARIADB DO NOT USE OTHER DATABASE**
 ```
@@ -53,4 +53,9 @@ systemctl start mariadb
 cd /srv/shiny-server
 git clone https://github.com/dapingtai/MDMAAT-web.git
 ```
-# Instructions for use
+# Default In Containter
+- MariaDB(user="root", password="root")
+- Databases in MariaDB(ArrayDB: "MicroarrayData", ShinyloginDB: "mib_shiny") 
+- Shiny login(user="shiny", password="shiny")
+- MDMAAT Floder location("/srv/shiny-server/MDMAAT")
+# Instructions For Use
