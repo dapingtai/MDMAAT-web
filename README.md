@@ -6,7 +6,7 @@
 
    ---Watching your microarray data and starting easy analysis on website.---
 # Overview Tool Function
-![image](https://github.com/dapingtai/MDMAAT/blob/master/www/MDMAAT_Function.jpg)
+![image](https://github.com/dapingtai/MDMAAT-web/blob/master/www/MDMAAT_Function.jpg)
 
 # Quick Start
 ```
