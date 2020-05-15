@@ -33,7 +33,7 @@ server <- function(input, output, session) {
   ######################
   ### PROJECTS
   ######################
-  source('projects/TEMPLATE', local = TRUE)
+  source('projects/TEMPLATE.R', local = TRUE)
   ######################
   ### ResetPassword
   ######################
