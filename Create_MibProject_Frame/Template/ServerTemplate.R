@@ -8,7 +8,8 @@ server <- function(input, output, session) {
   if (length(dbListConnections( dbDriver( drv = "MySQL"))) > 10) {
     lapply( dbListConnections( dbDriver( drv = "MySQL"))[-(1:10)], dbDisconnect)
   }
-  connect = dbConnect(MySQL(), dbname = "MicroarrayData", user = "root", password = "root", host = "localhost")
+  login_info <- read.table("login_info.text", row.names=1, stringsAsFactors = F, sep="=")
+  connect = dbConnect(MySQL(), dbname = login_info["arraydb",], user = login_info["user",], password = login_info["password",], host = login_info["host",])
   mydb <- dbListTables(connect)
   ######################
   ### header
