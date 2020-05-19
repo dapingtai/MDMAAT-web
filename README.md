@@ -58,4 +58,26 @@ git clone https://github.com/dapingtai/MDMAAT-web.git
 - Databases in MariaDB(ArrayDB: "MicroarrayData", ShinyloginDB: "mib_shiny") 
 - Shiny login(user="shiny", password="shiny")
 - MDMAAT Floder location("/srv/shiny-server/MDMAAT")
-# Instructions For Use
+# Instructions For Using Website
+
+## Data Processing
+![image](https://github.com/dapingtai/MDMAAT-web/blob/master/www/Instruction/DataOverView.png)
+## Step 1 Select Sample
+![image](https://github.com/dapingtai/MDMAAT-web/blob/master/www/Instruction/SelectSample.png)
+## Step 2 Choose Platform & View Feature
+![image](https://github.com/dapingtai/MDMAAT-web/blob/master/www/Instruction/ChoosePlatform.png)
+![image](https://github.com/dapingtai/MDMAAT-web/blob/master/www/Instruction/Features.png)
+## Step 3 Select SampleA / SampleB
+![image](https://github.com/dapingtai/MDMAAT-web/blob/master/www/Instruction/SelectGroupA.png)
+![image](https://github.com/dapingtai/MDMAAT-web/blob/master/www/Instruction/SelectGroupB.png)
+## Step 4 Choose Method & Start Analysis
+![image](https://github.com/dapingtai/MDMAAT-web/blob/master/www/Instruction/SelectAnalysisMethod.png)
+![image](https://github.com/dapingtai/MDMAAT-web/blob/master/www/Instruction/StartAnalysis.png)
+## Step 5 Watching Resulte
+![image](https://github.com/dapingtai/MDMAAT-web/blob/master/www/Instruction/Result.png)
+### Data Visualization
+![image](https://github.com/dapingtai/MDMAAT-web/blob/master/www/Instruction/Viewer1.png)
+![image](https://github.com/dapingtai/MDMAAT-web/blob/master/www/Instruction/Viewer2.png)
+## Step 6 Enrichment Analysis
+![image](https://github.com/dapingtai/MDMAAT-web/blob/master/www/Instruction/EnrichmentControl.png)
+![image](https://github.com/dapingtai/MDMAAT-web/blob/master/www/Instruction/EnrichmentAnalysis.png)
