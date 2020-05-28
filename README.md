@@ -18,26 +18,26 @@ docker pull zero102x/mdmaat-web
 - Window - https://docs.docker.com/docker-for-windows/install/
 - Mac - https://docs.docker.com/docker-for-mac/install/
 
-## Step2: Pull docker image
-```
+## Step2: Pull docker image ( Base image: Centos7 )
+```shell
 docker pull zero102x/mdmaat-web
 ```
-## Step3: Run docker container
-```
+## Step3: Run docker container 
+```shell
 docker run -dit -p 3838:3838 --name MDMAAT --privileged=true zero102x/mdmaat-web /usr/sbin/init
 ```
 ## Step4: Adjust server firewall
-**Example**
-```
+**Example in server Centos7**
+```shell
 firewall-cmd --permanent --zone=public --add-port=3838/tcp
 firewall-cmd --reload
 ```
 ## Step5: Enter container
-```
+```shell
 docker exec -it MDMAAT /bin/bash
 ```
 #### Ps.If shiny-server unservice, try this command ####
-```
+```shell
 systemctl start shiny-server
 systemctl enable shiny-server
 ```
@@ -45,11 +45,11 @@ systemctl enable shiny-server
 Our default is using localhost MariaDB in containter, if you want to change DB location, you can change host location in [login_info.text](https://github.com/dapingtai/MDMAAT-web/blob/master/login_info.text)
 
 **Ps. Only Support MYSQL/MARIADB DO NOT USE OTHER DATABASE**
-```
+```shell
 systemctl start mariadb
 ```
 ## Step7: Update MDMAAT-web version
-```
+```shell
 cd /srv/shiny-server
 git clone https://github.com/dapingtai/MDMAAT-web.git
 ```
@@ -58,6 +58,15 @@ git clone https://github.com/dapingtai/MDMAAT-web.git
 - Databases in MariaDB(ArrayDB: "MicroarrayData", ShinyloginDB: "mib_shiny") 
 - Shiny login(user="shiny", password="shiny")
 - MDMAAT Floder location("/srv/shiny-server/MDMAAT")
+# Create New Data In DataBase
+## Naming Principles For Table Name
+Microarray data: {Your Platform abbreviated name}_{Your Data Name}_{DATA}
+Microarray Expiration Date(Name/Date/Type): {Your Platform abbrivated name}_{Your Data Name}_{EXP}
+### Abbreviate MicroArray Platform  
+Affy Human Genome U133 Plus 2.0 Array => AFFY
+Affy Mouse Genome 430 2.0 Array => M430
+Infinium Human Methylation 450K BeadChip => METH
+Infinium MethylationEPIC BeadChip => MEPIC
 # Instructions For Using Website
 
 ## Data Processing
