@@ -59,6 +59,8 @@ git clone https://github.com/dapingtai/MDMAAT-web.git
 - Shiny login(user="shiny", password="shiny")
 - MDMAAT Floder location("/srv/shiny-server/MDMAAT")
 # Create New Data In DataBase
+## Quickly Creating (Using our shellscript)
+View https://github.com/dapingtai/MDMAAT-web/tree/master/Create_MibProject_Frame
 ## Naming Principles For Table Name
 - Microarray data: {Your Platform abbreviated name}_{Your Data Name}_{DATA}
 - Microarray Expiration Date(Name/Date/Type): {Your Platform abbrivated name}_{Your Data Name}_{EXP}
