@@ -62,8 +62,8 @@ git clone https://github.com/dapingtai/MDMAAT-web.git
 ### Quickly Creating (Using our shellscript)
 View https://github.com/dapingtai/MDMAAT-web/tree/master/Create_MibProject_Frame
 ### Naming Principles For Table Name
-- Microarray data: {Your Platform abbreviated name}_{Your Data Name}_{DATA}
-- Microarray Expiration Date(Name/Date/Type): {Your Platform abbrivated name}_{Your Data Name}_{EXP}
+- Microarray data: `{Your Platform abbreviated name}_{Your Data Name}_{DATA}`
+- Microarray Expiration Date(Name/Date/Type): `{Your Platform abbrivated name}_{Your Data Name}_{EXP}`
 ### Abbreviate MicroArray Platform  
 - Affy Human Genome U133 Plus 2.0 Array => AFFY
 - Affy Mouse Genome 430 2.0 Array => M430
