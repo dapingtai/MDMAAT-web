@@ -21,5 +21,5 @@ Create Success!!
 Ps. bash /srv/shiny-server/MDMAAT/Create_MibProject_Frame/CreateProject.sh 0 [Your template_list.txt Line - 1]
 ## Step3: Merge created template to main floder
 ```shell
-$ cp /srv/shiny-server/MDMAAT/Create_MibProject_Frame/Output/. /srv/shiny-server/MDMAAT/
+$ cp -R /srv/shiny-server/MDMAAT/Create_MibProject_Frame/Output/. /srv/shiny-server/MDMAAT/
 ```
