@@ -25,9 +25,9 @@ output$sidebarpanel <- renderMenu({
     sidebarMenu(
       menuItem("HOME", icon = icon("home", lib = "glyphicon"), tabName = "HOME"),
       menuItem("PROJECTS", icon = icon("tasks"), tabName = "PROJECTS", startExpanded = TRUE,
-               menuItemOutput('EXAMPLE')
-               menuItemOutput('EXAMPLE2')
-               menuItemOutput('EXAMPLE3')
+               menuItemOutput('EXAMPLE'),
+               menuItemOutput('EXAMPLE2'),
+               menuItemOutput('EXAMPLE3'),
                menuItemOutput('EXAMPLE4')
       ),
       menuItem("CHANGE PASSWORD", icon = icon("user-secret", lib = "font-awesome"), tabName = "Resetpwd", startExpanded = FALSE),
